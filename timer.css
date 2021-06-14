@@ -1,0 +1,233 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    #d161ff,
+    #8052ec
+    );
+
+}
+
+#contenedorTimer{
+  height: 540px;
+  width: 700px;
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#botonesTimer{
+  height: 100px;
+  width: 600px;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+}
+
+#botonConfigurar{
+  height: 50px;
+  width: 200px;
+  margin-right: 40px;
+}
+
+#botonParar{
+  height: 50px;
+  width: 150px;
+  margin-right: 40px;
+}
+
+#botonCliqueame{
+  height: 50px;
+  width: 150px;
+}
+
+#botonReanudar{
+  display: none;
+  height: 50px;
+  width: 150px;
+  margin-right: 40px;
+}
+
+#botonesTimer button{
+  border-radius: 10px;
+  border: none;
+  background-color: #8052ec;
+  color: white;
+  font-family: verdana, sans-serif;
+  font-size: 15px;
+}
+
+#botonesTimer button:hover{
+  background-color: #d161ff;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#timer{
+  height: 250px;
+  width: 600px;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#timer div{
+  margin: auto;
+  font-size: 60px;
+  font-family: verdana;
+}
+
+#creditosTimer{
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Odibee Sans', cursive;
+  font-size: 20px;
+}
+
+
+#infoOculta{
+  display: none;
+  transition: 1s;
+  height: 900px;
+  width: 800px;
+  position: absolute;
+  background-color: #EEEEEE;
+  border-radius: 30px;
+  border: 4px solid black;
+  font-family: verdana, sans-serif;
+  font-size: 20px;
+  padding: 40px;
+
+}
+
+#infoOculta li{
+  margin-bottom: 20px;
+}
+
+#cerrarInfoOculta{
+  height: 30px;
+  width: 30px;
+  background-color: #8052ec;
+  border-radius: 180px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#cerrarInfoOculta:hover{
+  background-color: #d161ff;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.fa-times{
+  color: white;
+}
+
+#audio{
+  display: none;
+}
+
+#cajaFinalizacion{
+  display: none;
+}
+
+#velocidad{
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #EEEEEE;
+
+
+}
+
+#velocidad p{
+  text-align: center;
+  font-weight: 500;
+
+
+}
+
+#botones{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+
+
+}
+
+#botones div{
+  width: 100px;
+  height: 50px;
+  border-radius: 40px;
+  text-align: center;
+  margin-right: 40px;
+  background-color: #8052ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#botones div:hover{
+  background-color: #d161ff;
+  transition: 1s;
+}
+
+#botonPersonalizarTexto{
+  margin: auto;
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  background-color: #8052ec;
+  cursor: pointer;
+  color: white;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#botonPersonalizarTexto:hover{
+  background-color: #d161ff;
+  transition: 1s;
+}
+
+#botonTerminar{
+  display: none;
+  height: 50px;
+  width: 150px;
+  margin-right: 40px;
+}

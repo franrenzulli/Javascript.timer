@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/2936/2936928.png">
+    <title>Temporizador JavaScript</title>
+    <script src="https://kit.fontawesome.com/6986f12001.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="timer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <audio id="audio" controls>
+      <source type="audio/mp3" src="Audio.mp3">
+    </audio>
+    <div id="infoOculta">
+      <button id="cerrarInfoOculta"><i class="fas fa-times"></i></button>
+        </br></br>
+          Hola! Soy un desarrollador principiante, por lo que la aplicacion puede contar con ciertos bugs. A continuacion les doy un par de tips para evitar problemas.
+        </br></br>
+      <ul>
+        <li>Si se desea modificar la duracion del timer, primero presionar el boton PARAR y luego reconfigure el tiempo. Reconfigurar el tiempo con un temporizador en proceso puede generar problemas en el funcionamiento</li>
+        <li>La velocidad del temporizador solamente puede modificarse antes de iniciar el temporizador o mientras esta parado.</li>
+        <li>Si quiere, puede modificar el texto que se mostrara en pantalla al terminarse el timer</li>
+      </ul>
+      <div id="botonPersonalizarTexto">Modificar texto final!</div>
+      <div id="velocidad">
+        <p>Cambiar velocidad</p>
+        <div id="botones">
+          <div id="botonVelocidad05">x0.5</div>
+          <div id="botonVelocidad10">x1</div>
+          <div id="botonVelocidad20">x2</div>
+          <div id="botonVelocidad30">x3</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contenedorTimer">
+      <div id="botonesTimer">
+        <button id="botonConfigurar">Configurar</button>
+        <button id="botonParar">Parar</button>
+        <button id="botonReanudar">Reanudar</button>
+        <button id="botonTerminar">Terminar</button>
+        <button id="botonCliqueame">Cliqueame!</button>
+
+      </div>
+      <div id="timer">
+        <div>
+        <span id="cuentaMinutos">00</span> :
+        <span id="cuentaSegundos">00</span>
+        </div>
+      </div>
+      <p id="creditosTimer">Made By Franco</p>
+    </div>
+    <script src="velocidad.js" charset="utf-8"></script>
+    <script src="timer.js" charset="utf-8"></script>
+  </body>
+</html>
