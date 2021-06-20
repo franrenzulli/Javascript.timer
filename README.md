@@ -1,4 +1,4 @@
-# Javascript.timer
+TEMPORIZADOR DE JAVASCRIPT.
 
 Un temporizador que puede ser pausado, elegir la duracion, terminarlo, cambiarle la velocidad si es necesario, modificar un texto final y que hace un ruido al terminar el tiempo
 para avisarte si es que no quieres tenerlo todo el tiempo maximizado en tu pantalla!
